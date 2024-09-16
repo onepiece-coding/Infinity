@@ -1,0 +1,222 @@
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+
+  .main-header {
+    padding: 0 4.8rem;
+  }
+
+  .container {
+    padding: 6.4rem 4.8rem;
+  }
+
+  .footer-down {
+    padding: 3.2rem 4.8rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .small-step--stats {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .small-step--stat {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .our-partners {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-down {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form-group {
+    display: flex;
+    gap: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-header {
+    padding: 0 6.4rem;
+  }
+
+  .container {
+    padding: 6.4rem 6.4rem;
+  }
+
+  .footer-down {
+    padding: 3.2rem 6.4rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-what-we-de--header {
+    text-align: center;
+  }
+
+  .about-what-we-de--hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-what-we-de--hero-item:last-child {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  .what-our-clients-say--quotes {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  .our-client-quote:last-child {
+    display: block;
+  }
+
+  .posts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .team {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer--up {
+    flex-direction: row;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .toggle-menu-btn {
+    display: none;
+  }
+
+  .navbar {
+    position: static;
+    width: fit-content;
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 1.4rem 1.6rem;
+  }
+
+  .nav-link:hover {
+    color: #fff !important;
+  }
+
+  .nav-links li:not(:last-child) .nav-link {
+    border-bottom: none;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .features {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .small-step {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4.8rem;
+    align-items: center;
+  }
+
+  .small-step--since {
+    margin-top: 0;
+  }
+
+  .about-what-we-de--hero {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-what-we-de--hero-item:last-child {
+    grid-column: auto;
+    text-align: left;
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .our-partners {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .posts {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .main-header {
+    padding: 0 12.8rem;
+  }
+
+  .container {
+    padding: 6.4rem 12.8rem;
+  }
+
+  .footer-down {
+    padding: 3.2rem 12.8rem;
+  }
+
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (hover: hover) {
+  .nav-link:hover,
+  .social-icon:hover,
+  .footer-link:hover,
+  .project-link:hover {
+    color: #003ee6;
+  }
+
+  .btn:hover,
+  .form-btn:hover {
+    background-color: #000;
+  }
+
+  .project:hover .project--info {
+    transform: translateY(0);
+  }
+}
