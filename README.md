@@ -33,3 +33,7 @@ To view or run the project locally:
 
    ```bash
    git clone https://github.com/AlhianeDev/Infinity.git
+
+## Live Demo
+
+[infinity-m1vo7tjvx-hafids-projects.vercel.app](https://infinity-tawny-three.vercel.app/)
