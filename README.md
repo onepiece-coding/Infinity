@@ -32,7 +32,7 @@ To view or run the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AlhianeDev/Infinity.git
+   git clone https://github.com/onepiece-coding/Infinity.git
 
 ## Live Demo
 
